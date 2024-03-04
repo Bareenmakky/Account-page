@@ -20,10 +20,10 @@ class AccountPage extends StatelessWidget {
     return Scaffold(
       appBar: PreferredSize(
         preferredSize:
-        Size.fromHeight(100.0), // Set the preferred height of the app bar
+        Size.fromHeight(100.0),
         child: Container(
           color: Colors.red,
-          width: double.infinity, // Set the width to span from edge to edge
+          width: double.infinity, 
           height: 90,
           padding: EdgeInsets.symmetric(horizontal: 20),
           child: Row(
